@@ -29,6 +29,8 @@ RSpec.configure do |config|
       tea_json = JSON.parse(tea_description, symbolize_names: true)
       create(:tea, title: tea_json[:title], description: tea_json[:description])
     end
+
+    @tea1 = Tea.all.first
   end
 
   def customer_data
@@ -38,7 +40,10 @@ RSpec.configure do |config|
   end
 
   def subscription_data
-
+    customer_data
+    @subscription1 = FactoryBot.create(:subscription, customer: @customer1)
+    @subscription2 = FactoryBot.create(:subscription, customer: @customer2)
+    @subscription3 = FactoryBot.create(:subscription, customer: @customer3)
   end
 
   config.expect_with :rspec do |expectations|

@@ -1,5 +1,5 @@
 class Customer < ApplicationRecord
-  has_one :subscription
+  has_many :subscriptions
   has_many :customer_teas
   has_many :teas, through: :customer_teas
 

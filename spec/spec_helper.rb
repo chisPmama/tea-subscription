@@ -30,6 +30,17 @@ RSpec.configure do |config|
       create(:tea, title: tea_json[:title], description: tea_json[:description])
     end
   end
+
+  def customer_data
+    @customer1 = create(:customer)
+    @customer2 = create(:customer)
+    @customer3 = create(:customer)
+  end
+
+  def subscription_data
+
+  end
+
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
     # and `failure_message` of custom matchers include text for helper methods

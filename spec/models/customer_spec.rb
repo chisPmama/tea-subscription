@@ -13,4 +13,11 @@ RSpec.describe Customer, type: :model do
     it { should validate_presence_of(:email) }
     it { should validate_presence_of(:address) }
   end
+
+  describe 'customer data' do
+    it 'exists' do
+      customer_data
+      expect(Customer.all.count).to eq(3)
+    end
+  end
 end

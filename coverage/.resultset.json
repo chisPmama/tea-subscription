@@ -1,8 +1,10 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/subscription.rb": {
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/customer.rb": {
         "lines": [
+          1,
+          1,
           1,
           1,
           null,
@@ -15,6 +17,36 @@
       },
       "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/application_record.rb": {
         "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/spec/models/subscription_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/subscription.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
           1,
           1,
           null
@@ -54,21 +86,6 @@
           null
         ]
       },
-      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/customer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
       "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/customer_tea.rb": {
         "lines": [
           1,
@@ -78,6 +95,6 @@
         ]
       }
     },
-    "timestamp": 1706315203
+    "timestamp": 1706315313
   }
 }

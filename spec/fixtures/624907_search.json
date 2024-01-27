@@ -1,0 +1,100 @@
+{
+  "id": 624907,
+  "title": "TerraVita Pistachio Oolong Tea, Pistachio, Oolong Tea Bags, 50 Tea Bags, 2-Pack, Zin: 541414",
+  "price": 29.6299991607666,
+  "likes": 0,
+  "badges": [
+      "egg_free",
+      "peanut_free",
+      "vegan",
+      "soy_free",
+      "msg_free",
+      "no_artificial_colors",
+      "sugar_free",
+      "no_artificial_flavors",
+      "vegetarian",
+      "no_artificial_ingredients",
+      "corn_free",
+      "dairy_free",
+      "gluten_free"
+  ],
+  "importantBadges": [
+      "gluten_free"
+  ],
+  "nutrition": {
+      "nutrients": [
+          {
+              "name": "Net Carbohydrates",
+              "amount": 0.0,
+              "unit": "g",
+              "percentOfDailyNeeds": 0.0
+          }
+      ],
+      "caloricBreakdown": {
+          "percentProtein": 0.0,
+          "percentFat": 0.0,
+          "percentCarbs": 0.0
+      },
+      "calories": null
+  },
+  "servings": {
+      "number": 1.0,
+      "size": null,
+      "unit": null
+  },
+  "spoonacularScore": 100.0,
+  "breadcrumbs": [
+      "tea bag",
+      "tea",
+      "hot drink",
+      "drink",
+      "menu item type"
+  ],
+  "aisle": "Tea and Coffee",
+  "description": "&lt;ul&gt;  &lt;li&gt;Packaged in the United States.&lt;/li&gt;  &lt;li&gt;No fillers or artificial colors.&lt;/li&gt;  &lt;li&gt;Oolong Tea Bags - Packed in a convenient upright pouch!&lt;/li&gt; &lt;/ul&gt;",
+  "image": "https://spoonacular.com/productImages/624907-312x231.jpeg",
+  "imageType": "jpeg",
+  "images": [
+      "https://spoonacular.com/productImages/624907-90x90.jpeg",
+      "https://spoonacular.com/productImages/624907-312x231.jpeg",
+      "https://spoonacular.com/productImages/624907-636x393.jpeg"
+  ],
+  "generatedText": "TerraVita Pistachio Oolong Tea, Pistachio, Oolong Tea Bags, 50 Tea Bags, 2-Pack, Zin: 541414: This product is a tremendous fit if you like to buy products that are vegetarian, vegan, and gluten-free. This product has 5 ingredients (in our experience: the fewer ingredients, the better!) According to our research, this product contains no ingredients that you should avoid. At about 30 cents, this product is inexpensive.",
+  "upc": "064445414143",
+  "brand": "TerraVita",
+  "ingredients": [
+      {
+          "name": "oolong tea",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "rose petals",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "natural flavors",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "pistachio pieces",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "macadamia nuts",
+          "safety_level": null,
+          "description": null
+      }
+  ],
+  "ingredientCount": 5,
+  "ingredientList": "Macadamia Nuts, Natural Flavors, Oolong Tea, Pistachio Pieces, Rose Petals",
+  "credits": {
+      "text": "openfoodtacts.org under (ODbL) v1.0",
+      "link": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "image": "openfoodfacts.org under CC BY-SA 3.0 DEED",
+      "imageLink": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+  }
+}

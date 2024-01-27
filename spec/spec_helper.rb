@@ -17,6 +17,19 @@ RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.
+
+  def tea_data
+    tea_titles = File.read("spec/fixtures/tea_products_search.json")
+    tea_json = JSON.parse(tea_titles, symbolize_names: true)
+    teas = tea_json[:products]
+    tea_ids = teas.map{|tea| tea[:id]}
+
+    tea_ids.each do |id|
+      tea_description = File.read("spec/fixtures/#{id}_search.json")
+      tea_json = JSON.parse(tea_description, symbolize_names: true)
+      create(:tea, title: tea_json[:title], description: tea_json[:description])
+    end
+  end
   config.expect_with :rspec do |expectations|
     # This option will default to `true` in RSpec 4. It makes the `description`
     # and `failure_message` of custom matchers include text for helper methods

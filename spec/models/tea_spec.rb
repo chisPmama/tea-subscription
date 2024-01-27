@@ -13,4 +13,11 @@ RSpec.describe Tea, type: :model do
     it { should validate_presence_of(:temperature) }
     it { should validate_presence_of(:brew_time) }
   end
+
+  describe 'tea data' do
+    it 'exists' do
+      tea_data
+      expect(Tea.all.count).to eq(5)
+    end
+  end
 end

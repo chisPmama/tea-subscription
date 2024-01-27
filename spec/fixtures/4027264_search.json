@@ -1,0 +1,116 @@
+{
+  "id": 4027264,
+  "title": "TerraVita Blueberry Banana White Tea, (Blueberry Banana,Loose Leaf White Tea, 4 oz, 1-Pack, Zin: 537954)",
+  "price": 44.95000076293945,
+  "likes": 0,
+  "badges": [
+      "egg_free",
+      "peanut_free",
+      "nut_free",
+      "vegan",
+      "soy_free",
+      "msg_free",
+      "no_artificial_colors",
+      "sugar_free",
+      "no_artificial_flavors",
+      "vegetarian",
+      "no_artificial_ingredients",
+      "corn_free",
+      "dairy_free",
+      "gluten_free"
+  ],
+  "importantBadges": [
+      "gluten_free"
+  ],
+  "nutrition": {
+      "nutrients": [
+          {
+              "name": "Net Carbohydrates",
+              "amount": 0.0,
+              "unit": "g",
+              "percentOfDailyNeeds": 0.0
+          }
+      ],
+      "caloricBreakdown": {
+          "percentProtein": 0.0,
+          "percentFat": 0.0,
+          "percentCarbs": 0.0
+      },
+      "calories": null
+  },
+  "servings": {
+      "number": 1.0,
+      "size": null,
+      "unit": null
+  },
+  "spoonacularScore": 67.5,
+  "breadcrumbs": [
+      "white tea",
+      "tea",
+      "hot drink",
+      "drink",
+      "menu item type"
+  ],
+  "aisle": "Tea and Coffee",
+  "description": "<ul>  <li>Packaged in the United States in a cGMP certified facilty (current Good Manufacturing Practice).</li>  <li>No fillers.</li>  <li>Loose Leaf White Tea - Packed in a convenient upright pouch!</li> </ul>",
+  "image": "https://spoonacular.com/productImages/4027264-312x231.jpeg",
+  "imageType": "jpeg",
+  "images": [
+      "https://spoonacular.com/productImages/4027264-90x90.jpeg",
+      "https://spoonacular.com/productImages/4027264-312x231.jpeg",
+      "https://spoonacular.com/productImages/4027264-636x393.jpeg"
+  ],
+  "generatedText": "TerraVita Blueberry Banana White Tea, (Blueberry Banana,Loose Leaf White Tea, 4 oz, 1-Pack, Zin: 537954): This product is an awesome vegetarian option for anyone craving white tea. If you're still making up your mind, you might want to take a look at these products too: <a href=\"/ninechef-bundle-foojoy-shoumei-white-tea-100-individually-wrapped-teabags-1-ninechef-brand-long-handle-spoon-p4027264\">NineChef Bundle - Foojoy Shoumei White Tea 100 Individually Wrapped Teabags + 1 NineChef Brand Long Handle Spoon</a>, <a href=\"/touch-organic-white-tea-cube-100-count-705-ounce-boxes-pack-of-4-p4027264\">Touch Organic White Tea Cube, 100 Count, 7.05-Ounce Boxes (Pack of 4)</a>, <a href=\"/terravita-banana-coffee-nut-white-tea-banana-coffee-nut-loose-leaf-white-tea-4-oz-2-pack-zin-541087-p4027264\">TerraVita Banana Coffee Nut White Tea, Banana Coffee Nut, Loose Leaf White Tea, 4 oz, 2-Pack, Zin: 541087</a>, and <a href=\"/peony-white-needle-white-tea-loose-leaf-pouches-8oz-p4027264\">Peony White Needle White Tea - Loose Leaf Pouches - 8oz</a>.",
+  "upc": "064435379544",
+  "brand": "TerraVita",
+  "ingredients": [
+      {
+          "name": "natural",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "natural flavors",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "dried",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "diced",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "white tea",
+          "safety_level": "medium",
+          "description": null
+      },
+      {
+          "name": "banana pieces",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "apples",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "blueberries",
+          "safety_level": null,
+          "description": null
+      }
+  ],
+  "ingredientCount": 8,
+  "ingredientList": "Apples (Dried, Diced, Natural), Banana Pieces (Dried), Blueberries (Dried), Natural Flavors, White Tea",
+  "credits": {
+      "text": "openfoodtacts.org under (ODbL) v1.0",
+      "link": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "image": "openfoodfacts.org under CC BY-SA 3.0 DEED",
+      "imageLink": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+  }
+}

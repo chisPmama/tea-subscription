@@ -1,0 +1,106 @@
+{
+  "id": 540213,
+  "title": "TerraVita Persimmon Black Tea, Persimmon, Loose Leaf Black Tea, 8 oz, 2-Pack, Zin: 533698",
+  "price": 35.849998474121094,
+  "likes": 0,
+  "badges": [
+      "egg_free",
+      "peanut_free",
+      "nut_free",
+      "vegan",
+      "soy_free",
+      "msg_free",
+      "no_artificial_colors",
+      "sugar_free",
+      "no_artificial_flavors",
+      "vegetarian",
+      "no_artificial_ingredients",
+      "corn_free",
+      "dairy_free",
+      "gluten_free"
+  ],
+  "importantBadges": [
+      "no_artificial_flavors",
+      "no_artificial_colors",
+      "no_artificial_ingredients",
+      "gluten_free",
+      "nut_free",
+      "vegetarian"
+  ],
+  "nutrition": {
+      "nutrients": [
+          {
+              "name": "Net Carbohydrates",
+              "amount": 0.0,
+              "unit": "g",
+              "percentOfDailyNeeds": 0.0
+          }
+      ],
+      "caloricBreakdown": {
+          "percentProtein": 0.0,
+          "percentFat": 0.0,
+          "percentCarbs": 0.0
+      },
+      "calories": null
+  },
+  "servings": {
+      "number": 1.0,
+      "size": null,
+      "unit": null
+  },
+  "spoonacularScore": 82.5,
+  "breadcrumbs": [
+      "black tea",
+      "tea",
+      "hot drink",
+      "drink",
+      "menu item type"
+  ],
+  "aisle": "Tea and Coffee",
+  "description": "&lt;ul&gt;  &lt;li&gt;Packaged in the United States.&lt;/li&gt;  &lt;li&gt;No fillers or artificial colors.&lt;/li&gt;  &lt;li&gt;Loose Leaf Black Tea - Packed in a convenient upright pouch!&lt;/li&gt; &lt;/ul&gt;",
+  "image": "https://spoonacular.com/productImages/540213-312x231.jpeg",
+  "imageType": "jpeg",
+  "images": [
+      "https://spoonacular.com/productImages/540213-90x90.jpeg",
+      "https://spoonacular.com/productImages/540213-312x231.jpeg",
+      "https://spoonacular.com/productImages/540213-636x393.jpeg"
+  ],
+  "generatedText": "TerraVita Persimmon Black Tea, Persimmon, Loose Leaf Black Tea, 8 oz, 2-Pack, Zin: 533698: This product is an awesome paleo choice for anyone craving black tea. According to our research, this product contains no ingredients that you should avoid. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has 5 ingredients. At about 36 cents, this product is cheap.",
+  "upc": "064445336988",
+  "brand": "TerraVita",
+  "ingredients": [
+      {
+          "name": "natural flavors",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "persimmon leaf",
+          "safety_level": null,
+          "description": null
+      },
+      {
+          "name": "black tea",
+          "safety_level": "medium",
+          "description": null
+      },
+      {
+          "name": "ginger root",
+          "safety_level": "high",
+          "description": null
+      },
+      {
+          "name": "persimmons",
+          "safety_level": null,
+          "description": null
+      }
+  ],
+  "ingredientCount": 5,
+  "ingredientList": "Black Tea, Ginger Root, Natural Flavors, Persimmon Leaf, Persimmons",
+  "credits": {
+      "text": "openfoodtacts.org under (ODbL) v1.0",
+      "link": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "image": "openfoodfacts.org under CC BY-SA 3.0 DEED",
+      "imageLink": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+  }
+}

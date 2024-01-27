@@ -1,0 +1,83 @@
+{
+  "id": 3777406,
+  "title": "Numi Organic Tea Mate Lemon, 18 Count (Pack Of 6) Box Of Tea Bags Yerba Mate Green Tea Blend",
+  "price": 12.869999885559082,
+  "likes": 0,
+  "badges": [
+      "egg_free",
+      "peanut_free",
+      "primal",
+      "nut_free",
+      "vegan",
+      "soy_free",
+      "msg_free",
+      "no_artificial_colors",
+      "sugar_free",
+      "no_artificial_flavors",
+      "vegetarian",
+      "no_artificial_ingredients",
+      "corn_free",
+      "dairy_free",
+      "paleo",
+      "gluten_free",
+      "organic"
+  ],
+  "importantBadges": [
+      "organic",
+      "gluten_free",
+      "paleo",
+      "primal",
+      "sugar_free",
+      "corn_free"
+  ],
+  "nutrition": {
+      "nutrients": [
+          {
+              "name": "Net Carbohydrates",
+              "amount": 0.0,
+              "unit": "g",
+              "percentOfDailyNeeds": 0.0
+          }
+      ],
+      "caloricBreakdown": {
+          "percentProtein": 0.0,
+          "percentFat": 0.0,
+          "percentCarbs": 0.0
+      },
+      "calories": null
+  },
+  "servings": {
+      "number": 1.0,
+      "size": null,
+      "unit": null
+  },
+  "spoonacularScore": 100.0,
+  "breadcrumbs": [
+      "green tea",
+      "tea",
+      "hot drink",
+      "drink",
+      "menu item type"
+  ],
+  "aisle": "Tea and Coffee",
+  "description": "<ul>  <li></li>  <li>Tea Variety: Green</li>  <li>Brand: Numi</li>  <li>Package Information: Box</li>  <li>Flavor: Mate Lemon</li>  <li>Item Form: Tea Bags</li>  <li>BRIGHT, FRESH GREEN TEA: Whether youre looking for jasmine tea, gunpowder green tea, or matcha green tea powder, Numi has the bright, herbaceous green tea youre craving.</li>  <li>BAGGED TEA: Numis organic full-leaf quality teas come in convenient tea bags for the perfect brewing every time. Individually wrapped tea bags ensure your tea is fresh, every time.</li>  <li></li>  <li>NUMIS ORGANIC TEAS and tisanes bring you the flavor and health benefits of full-leaf tea in a variety of styles, flavors and brewing methods from tea bags and loose leaf teas to flowering teas, iced teas, and bottled teas.</li>  <li>PREMIUM ORGANIC FULL-LEAF quality teas &amp; herbal teasans blended w/ only 100% real fruits, flowers, &amp; spices. Try our black, green, white, Pu-erh, rooibos, herbal, &amp; turmeric teas.</li> </ul>",
+  "image": "https://spoonacular.com/productImages/3777406-312x231.jpg",
+  "imageType": "jpg",
+  "images": [
+      "https://spoonacular.com/productImages/3777406-90x90.jpg",
+      "https://spoonacular.com/productImages/3777406-312x231.jpg",
+      "https://spoonacular.com/productImages/3777406-636x393.jpg"
+  ],
+  "generatedText": "Numi Organic Tea Mate Lemon, 18 Count (Pack Of 6) Box Of Tea Bags Yerba Mate Green Tea Blend: This product is a tremendous vegetarian choice for anyone craving green tea.",
+  "upc": "100403098533",
+  "brand": "Numi",
+  "ingredients": [],
+  "ingredientCount": 0,
+  "ingredientList": "",
+  "credits": {
+      "text": "openfoodtacts.org under (ODbL) v1.0",
+      "link": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "image": "openfoodfacts.org under CC BY-SA 3.0 DEED",
+      "imageLink": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": 6978850,
+  "title": "Twinings French Vanilla Black Chai Tea Bags, 20 Count (Pack of 6)",
+  "price": 3.319999933242798,
+  "likes": 0,
+  "badges": [
+      "egg_free",
+      "peanut_free",
+      "primal",
+      "nut_free",
+      "vegan",
+      "kosher",
+      "soy_free",
+      "msg_free",
+      "no_artificial_colors",
+      "sugar_free",
+      "no_artificial_flavors",
+      "vegetarian",
+      "no_artificial_ingredients",
+      "corn_free",
+      "dairy_free",
+      "paleo",
+      "gluten_free"
+  ],
+  "importantBadges": [
+      "kosher",
+      "gluten_free"
+  ],
+  "nutrition": {
+      "nutrients": [
+          {
+              "name": "Net Carbohydrates",
+              "amount": 0.0,
+              "unit": "g",
+              "percentOfDailyNeeds": 0.0
+          }
+      ],
+      "caloricBreakdown": {
+          "percentProtein": 0.0,
+          "percentFat": 0.0,
+          "percentCarbs": 0.0
+      },
+      "calories": null
+  },
+  "servings": {
+      "number": 1.0,
+      "size": null,
+      "unit": null
+  },
+  "spoonacularScore": 100.0,
+  "breadcrumbs": [
+      "chai tea bag",
+      "tea bag",
+      "tea",
+      "hot drink",
+      "drink",
+      "menu item type"
+  ],
+  "aisle": "Tea and Coffee",
+  "description": "FRESH FLAVOR: Six boxes of 20 French Vanilla Chai tea bags. Fine black tea expertly blended with spices and French vanilla flavor. Steep for four to six minutes for the perfect cup of French vanilla chai tea. <br />ONLY THE FINEST QUALITY: Our expert blenders source only the finest leaves cultivated to our exacting standards by trusted growers around the world. From these tea gardens we hand-select the leaves that will shape your next Twinings moment.Kosher <br />FRENCH VANILLA CHAI TEA: Twinings blends to perfection fine black teas with the sweet and savory spice flavors of cinnamon, cardamom, cloves and ginger to give you a line of great-tasting Chai teas with a bold taste and rich, vibrant aroma. <br />RICH HISTORY: In 1706 Thomas Twining began selling fine tea from an English storefront in The Strand, London. Today, Twinings still sells teas from the original store and in more than 100 countries throughout the world. <br />HAND SELECTED FOR YOUR HOME: Made without artificial ingredients, Twinings natural teas provide a wholesome tea experience. If you enjoy Bigelow Tea, Lipton Tea, Harney &amp; Sons Tea, Davidson's Tea, or Prince of Peace Tea - try Twinings of London Tea.",
+  "image": "https://spoonacular.com/productImages/6978850-312x231.jpg",
+  "imageType": "jpg",
+  "images": [
+      "https://spoonacular.com/productImages/6978850-90x90.jpg",
+      "https://spoonacular.com/productImages/6978850-312x231.jpg",
+      "https://spoonacular.com/productImages/6978850-636x393.jpg"
+  ],
+  "generatedText": "Twinings French Vanilla Black Chai Tea Bags, 20 Count (Pack of 6): This chai tea bags is spectacular for anyone who needs foods suitable for a primal diet. We recommend choosing products with short ingredient lists, as these tend to be less processed. This product has no ingredients. If you're on a budget, you might rather put one of these cheaper products on your shopping list: <a href=\"/lipton-enticing-chai-tea-bags-20-ct-p6978850\">Lipton Enticing Chai Tea Bags - 20 CT</a>, <a href=\"/celestial-seasonings-india-spice-chai-tea-bags-20-ct-p6978850\">Celestial Seasonings India Spice Chai Tea Bags - 20 Ct</a>, <a href=\"/vahdam-original-masala-chai-tea-bags-masala-tea-bags-100-count-p6978850\">VAHDAM, Original Masala Chai Tea Bags, Masala Tea Bags, 100 count</a>, and <a href=\"/4-boxes-twinings-of-london-chai-tea-bags-20-ct-141-oz-p6978850\">(4 Boxes) Twinings of London Chai Tea Bags, 20 Ct., 1.41 oz.</a>.",
+  "upc": null,
+  "brand": "Twinings",
+  "ingredients": [],
+  "ingredientCount": 0,
+  "ingredientList": "",
+  "credits": {
+      "text": "openfoodtacts.org under (ODbL) v1.0",
+      "link": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "image": "openfoodfacts.org under CC BY-SA 3.0 DEED",
+      "imageLink": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
+  }
+}

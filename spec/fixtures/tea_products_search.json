@@ -1,0 +1,44 @@
+{
+    "type": "product",
+    "products": [
+        {
+            "_id": "upc_064435379544",
+            "id": 4027264,
+            "title": "TerraVita Blueberry Banana White Tea, (Blueberry Banana,Loose Leaf White Tea, 4 oz, 1-Pack, Zin: 537954)",
+            "image": "https://spoonacular.com/productImages/4027264-312x231.jpeg",
+            "imageType": "jpeg"
+        },
+        {
+            "_id": "walmart_product_1941830652",
+            "id": 6978850,
+            "title": "Twinings French Vanilla Black Chai Tea Bags, 20 Count (Pack of 6)",
+            "image": "https://spoonacular.com/productImages/6978850-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "_id": "upc_064445414143",
+            "id": 624907,
+            "title": "TerraVita Pistachio Oolong Tea, Pistachio, Oolong Tea Bags, 50 Tea Bags, 2-Pack, Zin: 541414",
+            "image": "https://spoonacular.com/productImages/624907-312x231.jpeg",
+            "imageType": "jpeg"
+        },
+        {
+            "_id": "upc_100403098533",
+            "id": 3777406,
+            "title": "Numi Organic Tea Mate Lemon, 18 Count (Pack Of 6) Box Of Tea Bags Yerba Mate Green Tea Blend",
+            "image": "https://spoonacular.com/productImages/3777406-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "_id": "upc_064445336988",
+            "id": 540213,
+            "title": "TerraVita Persimmon Black Tea, Persimmon, Loose Leaf Black Tea, 8 oz, 2-Pack, Zin: 533698",
+            "image": "https://spoonacular.com/productImages/540213-312x231.jpeg",
+            "imageType": "jpeg"
+        }
+    ],
+    "offset": 0,
+    "number": 5,
+    "totalProducts": 403204,
+    "processingTimeMs": 4548
+}

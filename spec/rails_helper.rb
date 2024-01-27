@@ -63,6 +63,8 @@ RSpec.configure do |config|
 
   require "simplecov"
   SimpleCov.start
+  config.include FactoryBot::Syntax::Methods
+
 
   #For Shoulda-Matchers:
   Shoulda::Matchers.configure do |config|

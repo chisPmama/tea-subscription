@@ -21,8 +21,43 @@
           1,
           null
         ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/customer_tea.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/customer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/models/subscription.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1706313881
+    "timestamp": 1706314679
   }
 }

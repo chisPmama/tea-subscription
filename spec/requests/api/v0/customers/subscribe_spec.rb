@@ -15,6 +15,9 @@ RSpec.describe "Customer Subscription" do
     expect(response.status).to eq(201)
     expect(@customer1.subscriptions.count).to eq(1)
 
+    subscription = @customer1.subscriptions.first
+    expect(subscription.status).to eq("active")
+
     response_data = JSON.parse(response.body, symbolize_names: true)
 
     expect(response_data).to have_key(:message)

@@ -40,10 +40,9 @@ RSpec.configure do |config|
   end
 
   def subscription_data
-    customer_data
-    @subscription1 = FactoryBot.create(:subscription, customer: @customer1)
-    @subscription2 = FactoryBot.create(:subscription, customer: @customer2)
-    @subscription3 = FactoryBot.create(:subscription, customer: @customer3)
+    @subscription1 = FactoryBot.create(:subscription)
+    @subscription2 = FactoryBot.create(:subscription)
+    @subscription3 = FactoryBot.create(:subscription)
   end
 
   config.expect_with :rspec do |expectations|

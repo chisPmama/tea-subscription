@@ -3,4 +3,12 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  namespace :api do
+    namespace :v0 do
+      post '/subscribe', to: 'customers#subscribe'
+      # resources :customers do
+      # end
+    end
+  end
 end

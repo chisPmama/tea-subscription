@@ -119,8 +119,64 @@
           1,
           null
         ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/spec/requests/api/v0/customers/subscribe_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/controllers/api/v0/customers_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1706319796
+    "timestamp": 1706479764
   }
 }

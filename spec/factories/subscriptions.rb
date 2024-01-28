@@ -5,7 +5,7 @@ FactoryBot.define do
 
     title { Faker::Subscription.plan }
     price { Faker::Commerce.price(range: 10.0..100.0).round(2) }
-    status { %w[active cancelled paused].sample }
+    status { nil }
     frequency { %w[monthly weekly daily].sample }
   end
 end

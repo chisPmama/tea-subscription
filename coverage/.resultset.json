@@ -54,7 +54,7 @@
           1,
           2,
           2,
-          2,
+          null,
           2,
           null,
           null,
@@ -74,7 +74,7 @@
           null,
           1,
           1,
-          1,
+          null,
           1,
           null
         ]
@@ -164,6 +164,52 @@
           null
         ]
       },
+      "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/spec/requests/api/v0/customers/unsubscribe_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/sleazypete/turing_work/4mod/intermission/tea-subscription/app/controllers/api/v0/customers_controller.rb": {
         "lines": [
           1,
@@ -177,6 +223,19 @@
           1,
           null,
           1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          0,
+          null,
+          0,
           null,
           null,
           null,
@@ -198,6 +257,6 @@
         ]
       }
     },
-    "timestamp": 1706480261
+    "timestamp": 1706481857
   }
 }

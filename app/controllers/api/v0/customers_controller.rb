@@ -5,6 +5,19 @@ class Api::V0::CustomersController < ApplicationController
     subscription = Subscription.find_by("id = #{params[:subscription_id]}")
 
     if customer && subscription
+      subscription.update(customer: customer, status: "active")
+      successful_subscription
+    else
+      unsuccessful_subscription
+    end
+  end
+
+  def unsubscribe
+    customer = Customer.find_by("id = #{params[:customer_id]}")
+    subscription = Subscription.find_by("id = #{params[:subscription_id]}")
+
+    if customer && subscription
+      binding.pry
       subscription.update(customer: customer)
       successful_subscription
     else

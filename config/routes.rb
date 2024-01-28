@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v0 do
       post '/subscribe', to: 'customers#subscribe'
+      patch '/unsubscribe', to: 'customers#unsubscribe'
       # resources :customers do
       # end
     end

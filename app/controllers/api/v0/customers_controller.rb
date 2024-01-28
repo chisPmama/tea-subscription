@@ -4,11 +4,11 @@ class Api::V0::CustomersController < ApplicationController
     customer = Customer.find_by("id = #{params[:customer_id]}")
     subscription = Subscription.find_by("id = #{params[:subscription_id]}")
 
-    if customer.exist? && subscription.exist?
+    if customer && subscription
       subscription.update(customer: customer)
       successful_subscription
     else
-      not_successful_subscription
+      unsuccessful_subscription
     end
   end
 
@@ -17,7 +17,7 @@ class Api::V0::CustomersController < ApplicationController
     render json:  { message: "Subscription added!" }, status: 201
   end
 
-  def not_successful_subscription
+  def unsuccessful_subscription
     render json:  { message: "Customer or Subscription could not be found." }, status: 404
   end
 end

@@ -1,8 +1,8 @@
 class Api::V0::CustomersController < ApplicationController
 
   def subscribe
-    customer = Customer.find(params[:customer_id])
-    subscription = Subscription.find(params[:subscription_id])
+    customer = Customer.find_by("id = #{params[:customer_id]}")
+    subscription = Subscription.find_by("id = #{params[:subscription_id]}")
 
     if customer && subscription
       subscription.update(customer: customer, status: "active")
@@ -13,8 +13,8 @@ class Api::V0::CustomersController < ApplicationController
   end
 
   def unsubscribe
-    customer = Customer.find(params[:customer_id])
-    subscription = Subscription.find(params[:subscription_id])
+    customer = Customer.find_by("id = #{params[:customer_id]}")
+    subscription = Subscription.find_by("id = #{params[:subscription_id]}")
 
     if customer && subscription
       subscription.update(status: "cancelled")
@@ -25,7 +25,7 @@ class Api::V0::CustomersController < ApplicationController
   end
 
   def subscriptions
-    customer = Customer.find(params[:customer_id])
+    customer = Customer.find_by("id = #{params[:customer_id]}")
 
     if customer.nil?
       unsuccessful_response
@@ -37,10 +37,6 @@ class Api::V0::CustomersController < ApplicationController
   end
 
   private
-  def successful_subscription
-    render json:  { message: "Subscription added!" }, status: 201
-  end
-
   def unsuccessful_response
     render json:  { message: "Customer or Subscription could not be found." }, status: 404
   end

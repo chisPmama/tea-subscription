@@ -31,6 +31,8 @@ RSpec.configure do |config|
     end
 
     @tea1 = Tea.all.first
+    @tea2 = Tea.all[1]
+    @tea3 = Tea.all[2]
   end
 
   def customer_data

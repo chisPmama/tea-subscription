@@ -21,11 +21,11 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_27_002148) do
   end
 
   create_table "subscription_teas", force: :cascade do |t|
-    t.integer "customer_id", null: false
+    t.integer "subscription_id", null: false
     t.integer "tea_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["customer_id"], name: "index_subscription_teas_on_customer_id"
+    t.index ["subscription_id"], name: "index_subscription_teas_on_subscription_id"
     t.index ["tea_id"], name: "index_subscription_teas_on_tea_id"
   end
 
@@ -49,7 +49,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_01_27_002148) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "subscription_teas", "customers"
+  add_foreign_key "subscription_teas", "subscriptions"
   add_foreign_key "subscription_teas", "teas"
   add_foreign_key "subscriptions", "customers"
 end

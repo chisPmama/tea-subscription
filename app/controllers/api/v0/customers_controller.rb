@@ -24,6 +24,19 @@ class Api::V0::CustomersController < ApplicationController
     end
   end
 
+  def subscriptions
+    customer = Customer.find_by("id = #{params[:customer_id]}")
+    subscriptions = customer.subscriptions
+
+    if customer && !subscriptions.nil?
+      render json: SubscriptionSerializer.new(subscriptions)
+    elsif customer && subscriptions.nil?
+      no_subscriptions
+    else
+      unsuccessful_response
+    end
+  end
+
   private
   def successful_subscription
     render json:  { message: "Subscription added!" }, status: 201
@@ -35,5 +48,9 @@ class Api::V0::CustomersController < ApplicationController
 
   def successful_unsubscription
     render json:  { message: "Subscription cancelled!" }, status: 201
+  end
+
+  def no_subscriptions
+    render json:  { message: "This customer does not have any subscriptions." }, status: 404
   end
 end

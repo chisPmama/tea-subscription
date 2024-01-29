@@ -9,6 +9,8 @@ Rails.application.routes.draw do
       post '/subscribe', to: 'customers#subscribe'
       patch '/unsubscribe', to: 'customers#unsubscribe'
       get '/subscriptions', to: 'customers#subscriptions'
+
+      post '/subscribe_tea', to: 'subscription_tea#create'
     end
   end
 end

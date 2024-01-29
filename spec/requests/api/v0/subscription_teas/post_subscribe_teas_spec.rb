@@ -15,12 +15,8 @@ RSpec.describe "Add Tea Subscription" do
 
     expect(response).to be_successful
       
-    expect(response.status).to eq(201)
-
-    binding.pry
-
-    subscription = @customer1.subscriptions.first
-    expect(subscription.status).to eq("active")
+    expect(response.status).to eq(201
+    expect(@subscription1.subscription_teas.count).to eq(1)
 
     response_data = JSON.parse(response.body, symbolize_names: true)
 

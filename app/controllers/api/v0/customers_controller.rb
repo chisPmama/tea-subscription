@@ -26,14 +26,13 @@ class Api::V0::CustomersController < ApplicationController
 
   def subscriptions
     customer = Customer.find_by("id = #{params[:customer_id]}")
-    subscriptions = customer.subscriptions
 
-    if customer && !subscriptions.nil?
-      render json: SubscriptionSerializer.new(subscriptions)
-    elsif customer && subscriptions.nil?
+    if customer.nil?
+      unsuccessful_response
+    elsif customer.subscriptions.blank?
       no_subscriptions
     else
-      unsuccessful_response
+      render json: SubscriptionSerializer.new(customer.subscriptions)
     end
   end
 

@@ -18,7 +18,7 @@ class Api::V0::CustomersController < ApplicationController
 
     if customer && subscription
       subscription.update(status: "cancelled")
-      successful_unsubscription
+      successful_unsubscription(customer, subscription)
     else
       unsuccessful_response
     end
@@ -41,21 +41,12 @@ class Api::V0::CustomersController < ApplicationController
     render json:  { message: "Customer or Subscription could not be found." }, status: 404
   end
 
-  def successful_unsubscription
-    render json:  { message: "Subscription cancelled!" }, status: 201
+  def successful_unsubscription(customer, subscription)
+    message = "Subscription '#{subscription.title}' for customer '#{customer.first_name} #{customer.last_name}' has been cancelled."
+    render json: { message: message }, status: 201
   end
 
   def no_subscriptions
     render json:  { message: "This customer does not have any subscriptions." }, status: 404
   end
-end
-
-def successful_subscription(customer, subscription)
-  message = "Subscription '#{subscription.name}' for customer '#{customer.name}' is now active."
-  render json: { message: message }, status: 201
-end
-
-def successful_unsubscription(customer, subscription)
-  message = "Subscription '#{subscription.name}' for customer '#{customer.name}' has been cancelled."
-  render json: { message: message }, status: 201
 end

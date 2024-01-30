@@ -19,8 +19,7 @@ It is recommended to place your parameters in with Postman using raw JSON as the
 - Input syntax in raw JSON:
 ```   
 {
-  "subscription_id": "your_subscription_id_here",      
-  "customer_id": "your_customer_id_here"
+    "message": "Subscription 'Business' added for customer 'Jacques Hackett'!"
 }
 ```
 
@@ -44,7 +43,7 @@ It is recommended to place your parameters in with Postman using raw JSON as the
 - Response:
 ```
 {
-    "message": "Subscription cancelled!"
+    "message": "Subscription 'Essential' for customer 'Jacques Hackett' has been cancelled."
 }
 ```
 
@@ -89,6 +88,6 @@ It is recommended to place your parameters in with Postman using raw JSON as the
 - Response:
 ```
 {
-    "message": "Subscription added!"
+    "message": "'Twinings French Vanilla Black Chai Tea Bags, 20 Count (Pack of 6)' added to subscription 'Platinum'!"
 }
 ```

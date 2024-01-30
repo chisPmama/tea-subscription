@@ -22,7 +22,7 @@ RSpec.describe "Add Tea Subscription" do
 
     expect(response_data).to have_key(:message)
     expect(response_data[:message]).to be_a String
-    expect(response_data[:message]).to eq("Subscription added!")
+    expect(response_data[:message]).to include("added to subscription")
   end
 
   it 'if tea is already subscribed, sends an unsuccessful response' do

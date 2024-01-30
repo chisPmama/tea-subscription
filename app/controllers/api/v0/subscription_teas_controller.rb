@@ -8,7 +8,7 @@ class Api::V0::SubscriptionTeasController < ApplicationController
       already_exists
     else
       sub_tea = SubscriptionTea.create(tea_id: tea.id, subscription_id: subscription.id)
-      successful_subscription
+      successful_subscription_tea(tea, subscription)
     end
   end
 

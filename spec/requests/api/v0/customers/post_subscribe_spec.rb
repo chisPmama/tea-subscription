@@ -22,7 +22,7 @@ RSpec.describe "Customer Subscription" do
 
     expect(response_data).to have_key(:message)
     expect(response_data[:message]).to be_a String
-    expect(response_data[:message]).to eq("Subscription added!")
+    expect(response_data[:message]).to include("added for customer")
   end
 
   it 'if customer or subscription cannot be found, sends an unsuccessful response' do
